@@ -48,17 +48,6 @@ h1 {
   font-family: Pacifico;
 }
 
-#contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 32vh; /* Opcional, ajusta la altura según tus necesidades */
-  }
-
-  iframe {
-    margin: 0 50px; /* Ajusta el margen entre los iframes según tus necesidades */
-  }
-
 
 /* Estilos base para el footer */
 footer {
