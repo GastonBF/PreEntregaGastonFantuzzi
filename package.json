@@ -1,0 +1,12 @@
+{
+  "name": "preentregagastonfantuzzi",
+  "version": "1.0.0",
+  "description": "Segunda pre-Entrega Gaston Fantuzzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

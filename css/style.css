@@ -1,108 +1,81 @@
-header.cabecera{
-    position: relative;
-    top: 0px;
-    width: 100%;
-    height: 150px;
-    margin: 0px;
-    padding: 0px;
-    background-image: url('../images/foto_2.jpg');
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
+@charset "UTF-8";
+/*Variables*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+/*Header*/
+header.cabecera {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 150px;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../images/foto_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @font-face {
-    font-family: 'Pacifico';
-    src: url(../Fonts/Pacifico/Pacifico-Regular.ttf);
+  font-family: "Pacifico";
+  src: url(../Fonts/Pacifico/Pacifico-Regular.ttf);
+}
+header.cabecera h1 {
+  color: #67b167;
+  font-size: 85px;
+  font-family: "Pacifico";
+  text-shadow: 5px 0px 0px black;
+  position: relative;
+  top: 25px;
+  left: 5px;
+  bottom: 10px;
 }
 
-h1 {
-    color: #67b167;
-    font-size: 67px;
-    font-family: 'Pacifico';
-    text-shadow: 5px 0px 0px black
-}
-
-*{
-    margin: 0;
-    padding: 0px;
-}
-
-
-.cabecera h1{
-    position: relative;
-    top: 25px;
-    left: 5px;
-    bottom: 10px;
-}
-
-.container-fluid{
+/*Barra de navegacion*/
+.container-fluid {
   font-family: Pacifico;
   font-size: 25px;
   color: black;
   background-color: #67b167;
 }
-
-.navbar-brand{
+.container-fluid .navbar-brand {
   font-size: 30px;
   font-family: Pacifico;
 }
 
-
-/* Estilos base para el footer */
-footer {
-    background-color: #67b167;
-    padding: 20px;
-    text-align: left;
-    font-family: Pacifico;
-  }
-
-  /* Estilos para pantallas pequeñas */
-  @media screen and (max-width: 768px) {
-    footer {
-      font-size: 14px;
-    }
-  }
-
-  /* Estilos para pantallas medianas */
-  @media screen and (min-width: 769px) and (max-width: 1200px) {
-    footer {
-      font-size: 16px;
-    }
-  }
-
-  /* Estilos para pantallas grandes */
-  @media screen and (min-width: 1201px) {
-    footer {
-      font-size: 18px;
-    }
-  }
-
-
-div.Logo{
-    display: flex;
-    font-family: Pacifico;
-    justify-content: center;
+/*Carousell*/
+.slide {
+  display: flexbox;
+  margin: 5px;
+  max-width: 100%;
+  height: auto;
+}
+.slide img {
+  width: 50vw;
+  height: 35vw;
 }
 
-.box{
-    display: inline-block;
-    background-color: #67b167;
-    height: auto;
-    width: auto;
-    border-style: groove;
-    padding: 10px;
-    overflow: scroll;
-    text-align: justify
+/*Texto*/
+.box {
+  display: inline-block;
+  background-color: #67b167;
+  height: auto;
+  width: auto;
+  border-style: groove;
+  padding: 10px;
+  overflow: scroll;
+  text-align: justify;
 }
 
-
+/*Imagenes*/
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   padding: 5px;
-  
 }
 
 .grid-item {
@@ -115,114 +88,120 @@ div.Logo{
   border-radius: 50px;
   justify-content: space-between;
 }
-
 .grid-item img {
   width: 100%;
-  height:70%;
+  height: 70%;
   border-radius: 50px;
-  
 }
-
-.grid-item p {
+.grid-item img p {
   margin-top: 5px;
   /* background: red;  */
   padding-bottom: 25px;
-  
-
 }
 
+.grid-item body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
+h2 {
+  text-align: center;
+  font-family: Pacifico;
+}
 
-   .slide {
-    display: flexbox;
-    margin: 5px ;
-    max-width: 100%;
-    height: auto;
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
 
-    }
+form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
 
-    .slide img {
-    width: 50vw;
-    height: 35vw;
-    }
+form h3 {
+  text-align: center;
+  font-family: Pacifico;
+}
 
-    /* Formularios */
-      Prueba de
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-      }
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
 
-      h2 {
-        text-align: center;
-        font-family: Pacifico;
+form input,
+form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
 
-      }
+form input[type=submit] {
+  background-color: #67b167;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  font-family: Pacifico;
+}
 
-      .form-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-      }
+/*footer*/
+footer {
+  background-color: #67b167;
+  padding: 20px;
+  text-align: left;
+  font-family: Pacifico;
+}
 
-      form {
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        background-color: #f8f8f8;
-      }
+.Logo {
+  display: flex;
+  font-family: Pacifico;
+  justify-content: center;
+}
 
-      form h3 {
-        text-align: center;
-        font-family: Pacifico;
-      }
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  footer {
+    font-size: 14px;
+  }
+}
+/* Estilos para pantallas medianas */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  footer {
+    font-size: 16px;
+  }
+}
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 1201px) {
+  footer {
+    font-size: 18px;
+  }
+}
+/* Media screen */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
 
-      form label {
-        display: block;
-        margin-bottom: 5px;
-      }
+.grid-item {
+  text-align: center;
+}
 
-      form input,
-      form textarea {
-        width: 100%;
-        padding: 5px;
-        margin-bottom: 10px;
-      }
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .form-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "formulario-contacto" "formulario-quejas";
+  }
+}
 
-      form input[type="submit"]{
-        background-color: #67b167;
-        color: rgb(0, 0, 0);
-        border-radius: 10px;
-        font-family: Pacifico;
-      }
-    
-
-    /* Media screen */
-  
-      .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 10px;
-      }
-
-      .grid-item {
-      text-align: center;
-      }
-
-      @media (max-width: 767px) {
-      .grid-container {
-      grid-template-columns: 1fr;
-      }
-      } 
-
-      @media (max-width: 768px) {
-        .form-container {
-          grid-template-columns: 1fr;
-          grid-template-areas:
-            'formulario-contacto'
-            'formulario-quejas';
-        }
-      }
+/*# sourceMappingURL=style.css.map */
