@@ -1,8 +1,11 @@
 @import "partials/variables";
 @import "partials/reset";
+@import "partials/mixins";
+
+
+@include encabezados(4rem);
 
 /*Header*/
-
 header.cabecera{
     position: relative;
     top: 0px;
@@ -160,7 +163,7 @@ header.cabecera{
     padding: 10px;
     margin: 0.4rem;
     box-sizing: border-box;
-    h3{
+    h4{
       text-align: center;
       margin: 0;
       padding: 0.5px;
