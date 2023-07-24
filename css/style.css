@@ -12,6 +12,7 @@ h1 {
 
 h2 {
   font-size: 3.6rem;
+  text-shadow: 1px 0px 0px whitesmoke;
 }
 
 h3 {
@@ -79,7 +80,6 @@ header.cabecera h1 {
 .box {
   display: inline-block;
   background-color: #67b167;
-  text-shadow: 1px 0px 0px whitesmoke;
   height: auto;
   width: auto;
   border-style: groove;
