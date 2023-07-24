@@ -82,8 +82,11 @@ header.cabecera h1 {
   width: auto;
   border-style: groove;
   padding: 10px;
-  overflow: scroll;
   text-align: justify;
+}
+.box p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
 }
 
 /*Imagenes*/

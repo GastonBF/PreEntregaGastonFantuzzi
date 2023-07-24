@@ -68,8 +68,11 @@ header.cabecera{
     width: auto;
     border-style: groove;
     padding: 10px;
-    overflow: scroll;
-    text-align: justify
+    text-align: justify;
+    p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.6rem;
+    }
 }
   /*Imagenes*/
 
@@ -78,7 +81,7 @@ header.cabecera{
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   padding: 5px;
-  
+
 }
 
 .grid-item {
@@ -101,7 +104,7 @@ header.cabecera{
   }
 }
 
-.grid-item 
+.grid-item
 
   /*Formularios*/
       .form-container {
@@ -109,7 +112,7 @@ header.cabecera{
         justify-content: center;
         align-items: center;
         height: 100vh;
-        margin: 0;  
+        margin: 0;
       }
 
       h2 {
