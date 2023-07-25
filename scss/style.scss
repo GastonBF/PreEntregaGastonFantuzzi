@@ -53,11 +53,11 @@ header.cabecera{
   .slide{
     display: flexbox;
     margin: 5px ;
-    max-width: 100%;
+    max-width: auto;
     height: auto;
     img{
-        width: 50vw;
-    height: 35vw;
+    width: 45vw;
+    height: 25vw;
     }
   }
   
