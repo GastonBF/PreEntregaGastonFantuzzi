@@ -10,10 +10,10 @@ header.cabecera{
     position: relative;
     top: 0px;
     width: $anchoMax;
-    height: 150px;
+    height: 200px;
     margin: 0px;
     padding: 0px;
-    background-image: url('../images/foto_2.jpg');
+    background-image: url(../images/foto_portada.jpg);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +44,7 @@ header.cabecera{
     color: black;
     background-color: #67b167;
     .navbar-brand{
-    font-size: 30px;
+    font-size: 40px;
     font-family: Pacifico;
   }
   }
@@ -56,8 +56,8 @@ header.cabecera{
     max-width: auto;
     height: auto;
     img{
-    width: 45vw;
-    height: 25vw;
+    width: auto;
+    height:650px;
     }
   }
   
