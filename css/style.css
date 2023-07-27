@@ -68,8 +68,9 @@ header.cabecera h1 {
 .slide {
   display: flexbox;
   margin: 5px;
-  max-width: auto;
+  max-width: 75%;
   height: auto;
+  margin-left: 12%;
 }
 .slide img {
   width: auto;
