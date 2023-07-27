@@ -63,6 +63,12 @@ header.cabecera h1 {
   font-size: 40px;
   font-family: Pacifico;
 }
+.container-fluid .nav-link {
+  font-size: 30px;
+}
+.container-fluid .dropdown-item {
+  font-size: 25px;
+}
 
 /*Carousell*/
 .slide {
@@ -132,6 +138,8 @@ header.cabecera h1 {
 h2 {
   text-align: center;
   font-family: Pacifico;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
 
 .form-container {

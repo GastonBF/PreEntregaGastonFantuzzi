@@ -46,7 +46,13 @@ header.cabecera{
     .navbar-brand{
     font-size: 40px;
     font-family: Pacifico;
-  }
+     }
+    .nav-link{
+      font-size: 30px;
+    }
+    .dropdown-item{
+      font-size: 25px;
+    }
   }
 
   /*Carousell*/
@@ -61,7 +67,7 @@ header.cabecera{
     height:650px;
     }
   }
-  
+
 
   /*Texto*/
   .box{
@@ -122,9 +128,10 @@ header.cabecera{
       h2 {
         text-align: center;
         font-family: Pacifico;
+        margin-top: 20px;
+        margin-bottom: 25px;
 
       }
-
       .form-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
