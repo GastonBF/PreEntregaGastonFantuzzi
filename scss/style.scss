@@ -209,6 +209,14 @@ header.cabecera{
     font-family: Pacifico;
     justify-content: center;
   }
+  .whatsapp-logo {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .redlogo img {
+    width: 40px; /* Ajusta el tamaño a tu preferencia */
+    height: 40px;
+  }
 
   @import "partials/queries";
 
