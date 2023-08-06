@@ -215,18 +215,12 @@ footer {
 
 .Logo {
   display: flex;
-  font-family: Pacifico;
   justify-content: center;
 }
 
-.whatsapp-logo {
-  display: inline-block;
-  margin-right: 5px;
-}
-
 .redlogo img {
-  width: 40px; /* Ajusta el tamaño a tu preferencia */
-  height: 40px;
+  width: 50px; /* Ajusta el tamaño a tu preferencia */
+  height: 50px;
 }
 
 /* Estilos para pantallas pequeñas */
